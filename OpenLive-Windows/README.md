@@ -33,8 +33,13 @@ Finally, Open OpenLive.sln with your VC++ 2013(or higher) and build all solution
 
 Note：
   1. After the program is compiled, if the program "xxx\xxx\xxx\Debug\Language\English.dll" cannot be started when running the program, 
-      please select the OpenLive project in the Solution Explorer and right click. In the pop-up menu bar, select "Set as startup project" to solve. Then run the program again.
+      please select the OpenLive project in the Solution Explorer and right click. In the pop-up menu bar, select "Set as active project" to solve. Then run the program again.
+      
   2. You may encounter crash when running this demo under debug mode. Please run this demo under release mode.
+  
+  3. The dll library under the sdk/dll file needs to be placed in the corresponding execution path.
+  
+  Tips: The relevant dll library has been configured for you in this case tutorial. If you want to use the interface provided by agora for related development, you need to put the dll library into the corresponding execution path as prompted above.
   
 ## Developer Environment Requirements
 * VC++ 2013(or higher)
